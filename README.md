@@ -137,7 +137,7 @@ Numbers
   - [ ] Shell Script
 
 **Tax Calculator** - Asks the user to enter a cost and either a country or state tax. It then returns the tax plus the total cost with tax.
-  - [ ] Go
+  - [x] Go
   - [ ] Java
   - [ ] Objective-C
   - [ ] Python
