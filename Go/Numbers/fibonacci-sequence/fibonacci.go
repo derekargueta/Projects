@@ -4,21 +4,17 @@ import "os"
 import "fmt"
 import "strconv"
 
-func fib(value int64) (res []int64) {
+func FibSeq(value int64) (res []int64) {
+    
+    if value == 1 { return []int64{0} }
+
     var list = make([]int64, value)
-    count := int64(2)
-    numOne := 0
-    numTwo := 1
     list[0] = 0
     list[1] = 1
-    fmt.Print(" 0 1")
-    for count < value {
-        result := numOne + numTwo
-        numOne = numTwo
-        numTwo = result
-        list[count] = int64(result)
-        count++
-        fmt.Print(" ", result)
+    if value == 2 { return list }
+    
+    for count := int64(2); count < value; count++ {
+        list[count] = int64(list[count-2] + list[count-1])
     }
 
     return list
@@ -37,9 +33,5 @@ func main() {
         return
     }
 
-    if value < 2 {
-        fmt.Println("Please enter a valid number above 2")
-    }
-
-    fmt.Println("\n", fib(value))
+    fmt.Println("\n", FibSeq(value))
 }
