@@ -33,5 +33,9 @@ func main() {
         return
     }
 
+    if value < 1 {
+        fmt.Println("Please enter a valid number")
+    }
+
     fmt.Println("\n", FibSeq(value))
 }
