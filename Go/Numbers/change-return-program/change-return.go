@@ -46,6 +46,10 @@ func GetMoney()(money float64) {
  * total
  */
 func Reducer(name string, total float64, amt float64) (/*num uint8,*/ remainder float64) {
+    if amt <= 0 || amt > total {
+        return total
+    }
+
     count := 0
     for total >= amt {
         total -= amt
