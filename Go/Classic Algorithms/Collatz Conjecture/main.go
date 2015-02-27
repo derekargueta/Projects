@@ -4,6 +4,10 @@ import "os"
 import "fmt"
 import "strconv"
 
+/**
+ * FOR USAGE SEE README.md
+ */
+
 func RunCollatz(n int, count int) (res int) {
 
     if n == 1 {
