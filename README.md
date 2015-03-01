@@ -384,7 +384,7 @@ Text
   - [ ] Shell Script
 
 **Reverse a String** - Enter a string and the program will reverse it and print it out.
-  - [ ] Go
+  - [x] Go
   - [ ] Java
   - [ ] Rust
   - [ ] C
