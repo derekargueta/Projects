@@ -6,18 +6,18 @@ Variety of practical programming problems. [Original Repo](https://github.com/ka
 ## Table of Contents
 
 - [Numbers](#numbers)
-- [Classic Algorithms](https://github.com/karan/Projects#classic-algorithms)
-- [Graph](https://github.com/karan/Projects#graph)
-- [Data Structures](https://github.com/karan/Projects#data-structures)
-- [Text](https://github.com/karan/Projects#text)
-- [Networking](https://github.com/karan/Projects#networking)
-- [Classes](https://github.com/karan/Projects#classes)
-- [Threading](https://github.com/karan/Projects#threading)
-- [Web](https://github.com/karan/Projects#web)
-- [Files](https://github.com/karan/Projects#files)
-- [Databases](https://github.com/karan/Projects#databases)
-- [Graphics and Multimedia](https://github.com/karan/Projects#graphics-and-multimedia)
-- [Security](https://github.com/karan/Projects#security)
+- [Classic Algorithms](#classic-algorithms)
+- [Graph](#graph)
+- [Data Structures](#data-structures)
+- [Text](#text)
+- [Networking](#networking)
+- [Classes](#classes)
+- [Threading](#threading)
+- [Web](#web)
+- [Files](#files)
+- [Databases](#databases)
+- [Graphics and Multimedia](#graphics-and-multimedia)
+- [Security](#security)
 
 Numbers
 ---------
