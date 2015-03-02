@@ -5,7 +5,7 @@ Variety of practical programming problems. [Original Repo](https://github.com/ka
 
 ## Table of Contents
 
-- [Numbers](https://github.com/karan/Projects#numbers)
+- [Numbers](#numbers)
 - [Classic Algorithms](https://github.com/karan/Projects#classic-algorithms)
 - [Graph](https://github.com/karan/Projects#graph)
 - [Data Structures](https://github.com/karan/Projects#data-structures)
