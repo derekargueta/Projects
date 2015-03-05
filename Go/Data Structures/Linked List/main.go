@@ -58,9 +58,10 @@ func main() {
 	PrintList(list)
 	// AND IT WORKS
 
-	// Create a way for users to input command to list
-	reader := bufio.NewReader(os.Stdin)
-	fmt.Print("Enter a command, or 'help' for a list of commands: ")
-	text, _ := reader.ReadString('\n')
-	fmt.Println(text)
+	for true {
+		// Create a way for users to input command to list
+		reader := bufio.NewReader(os.Stdin)
+		fmt.Print("Enter a command, or 'help' for a list of commands: ")
+		text, _ := reader.ReadString('\n')
+	}
 }

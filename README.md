@@ -22,7 +22,7 @@ Variety of practical programming problems. [Original Repo](https://github.com/ka
 Numbers
 ---------
 
-**Find PI to the Nth Digit** - Enter a number and have the program generate PI up to that many decimal places. Keep a limit to how far the program will go.
+**1) Find PI to the Nth Digit** - Enter a number and have the program generate PI up to that many decimal places. Keep a limit to how far the program will go.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -31,7 +31,7 @@ Numbers
   - [ ] Python
   - [ ] Shell Script
 
-**Find e to the Nth Digit** - Just like the previous problem, but with e instead of PI. Enter a number and have the program generate e up to that many decimal places. Keep a limit to how far the program will go.
+**2) Find e to the Nth Digit** - Just like the previous problem, but with e instead of PI. Enter a number and have the program generate e up to that many decimal places. Keep a limit to how far the program will go.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -40,7 +40,7 @@ Numbers
   - [ ] Python
   - [ ] Shell Script
 
-**Fibonacci Sequence** - Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
+**3) Fibonacci Sequence** - Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
   - [x] Go
   - [ ] Java
   - [ ] Rust
@@ -49,7 +49,7 @@ Numbers
   - [ ] Python
   - [ ] Shell Script
 
-**Prime Factorization** - Have the user enter a number and find all Prime Factors (if there are any) and display them.
+**4) Prime Factorization** - Have the user enter a number and find all Prime Factors (if there are any) and display them.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -58,7 +58,7 @@ Numbers
   - [ ] Python
   - [ ] Shell Script
 
-**Next Prime Number** - Have the program find prime numbers until the user chooses to stop asking for the next one.
+**5) Next Prime Number** - Have the program find prime numbers until the user chooses to stop asking for the next one.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -67,7 +67,7 @@ Numbers
   - [ ] Python
   - [ ] Shell Script
 
-**Find Cost of Tile to Cover W x H Floor** - Calculate the total cost of tile it would take to cover a floor plan of width and height, using a cost entered by the user.
+**6) Find Cost of Tile to Cover W x H Floor** - Calculate the total cost of tile it would take to cover a floor plan of width and height, using a cost entered by the user.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -76,7 +76,7 @@ Numbers
   - [ ] Python
   - [ ] Shell Script
 
-**Mortgage Calculator** - Calculate the monthly payments of a fixed term mortgage over given Nth terms at a given interest rate. Also figure out how long it will take the user to pay back the loan. For added complexity, add an option for users to select the compounding interval (Monthly, Weekly, Daily, Continually).
+**7) Mortgage Calculator** - Calculate the monthly payments of a fixed term mortgage over given Nth terms at a given interest rate. Also figure out how long it will take the user to pay back the loan. For added complexity, add an option for users to select the compounding interval (Monthly, Weekly, Daily, Continually).
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -85,7 +85,7 @@ Numbers
   - [ ] Python
   - [ ] Shell Script
 
-**Change Return Program** - The user enters a cost and then the amount of money given. The program will figure out the change and the number of quarters, dimes, nickels, pennies needed for the change.
+**8) Change Return Program** - The user enters a cost and then the amount of money given. The program will figure out the change and the number of quarters, dimes, nickels, pennies needed for the change.
   - [x] Go
   - [ ] Java
   - [ ] Rust
@@ -94,7 +94,7 @@ Numbers
   - [ ] Python
   - [ ] Shell Script
 
-**Binary to Decimal and Back Converter** - Develop a converter to convert a decimal number to binary or a binary number to its decimal equivalent.
+**9) Binary to Decimal and Back Converter** - Develop a converter to convert a decimal number to binary or a binary number to its decimal equivalent.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -103,7 +103,7 @@ Numbers
   - [ ] Python
   - [ ] Shell Script
 
-**Calculator** - A simple calculator to do basic operators. Make it a scientific calculator for added complexity.
+**10) Calculator** - A simple calculator to do basic operators. Make it a scientific calculator for added complexity.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -112,7 +112,7 @@ Numbers
   - [ ] Python
   - [ ] Shell Script
 
-**Unit Converter (temp, currency, volume, mass and more)** - Converts various units between one another. The user enters the type of unit being entered, the type of unit they want to convert to and then the value. The program will then make the conversion.
+**11) Unit Converter (temp, currency, volume, mass and more)** - Converts various units between one another. The user enters the type of unit being entered, the type of unit they want to convert to and then the value. The program will then make the conversion.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -121,7 +121,7 @@ Numbers
   - [ ] Python
   - [ ] Shell Script
 
-**Alarm Clock** - A simple clock where it plays a sound after X number of minutes/seconds or at a particular time.
+**12) Alarm Clock** - A simple clock where it plays a sound after X number of minutes/seconds or at a particular time.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -130,7 +130,7 @@ Numbers
   - [ ] Python
   - [ ] Shell Script
 
-**Distance Between Two Cities** - Calculates the distance between two cities and allows the user to specify a unit of distance. This program may require finding coordinates for the cities like latitude and longitude.
+**13) Distance Between Two Cities** - Calculates the distance between two cities and allows the user to specify a unit of distance. This program may require finding coordinates for the cities like latitude and longitude.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -139,7 +139,7 @@ Numbers
   - [ ] Python
   - [ ] Shell Script
 
-**Credit Card Validator** - Takes in a credit card number from a common credit card vendor (Visa, MasterCard, American Express, Discoverer) and validates it to make sure that it is a valid number (look into how credit cards use a checksum).
+**14) Credit Card Validator** - Takes in a credit card number from a common credit card vendor (Visa, MasterCard, American Express, Discoverer) and validates it to make sure that it is a valid number (look into how credit cards use a checksum).
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -148,7 +148,7 @@ Numbers
   - [ ] Python
   - [ ] Shell Script
 
-**Tax Calculator** - Asks the user to enter a cost and either a country or state tax. It then returns the tax plus the total cost with tax.
+**15) Tax Calculator** - Asks the user to enter a cost and either a country or state tax. It then returns the tax plus the total cost with tax.
   - [x] Go
   - [ ] Java
   - [ ] Rust
@@ -157,7 +157,7 @@ Numbers
   - [ ] Python
   - [ ] Shell Script
 
-**Factorial Finder** - The Factorial of a positive integer, n, is defined as the product of the sequence n, n-1, n-2, ...1 and the factorial of zero, 0, is defined as being 1. Solve this using both loops and recursion.
+**16) Factorial Finder** - The Factorial of a positive integer, n, is defined as the product of the sequence n, n-1, n-2, ...1 and the factorial of zero, 0, is defined as being 1. Solve this using both loops and recursion.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -166,7 +166,7 @@ Numbers
   - [ ] Python
   - [ ] Shell Script
 
-**Complex Number Algebra** - Show addition, multiplication, negation, and inversion of complex numbers in separate functions. (Subtraction and division operations can be made with pairs of these operations.) Print the results for each operation tested.
+**17) Complex Number Algebra** - Show addition, multiplication, negation, and inversion of complex numbers in separate functions. (Subtraction and division operations can be made with pairs of these operations.) Print the results for each operation tested.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -175,7 +175,7 @@ Numbers
   - [ ] Python
   - [ ] Shell Script
 
-**Happy Numbers** - A happy number is defined by the following process. Starting with any positive integer, replace the number by the sum of the squares of its digits, and repeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1. Those numbers for which this process ends in 1 are happy numbers, while those that do not end in 1 are unhappy numbers. Display an example of your output here. Find first 8 happy numbers.
+**18) Happy Numbers** - A happy number is defined by the following process. Starting with any positive integer, replace the number by the sum of the squares of its digits, and repeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1. Those numbers for which this process ends in 1 are happy numbers, while those that do not end in 1 are unhappy numbers. Display an example of your output here. Find first 8 happy numbers.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -184,7 +184,7 @@ Numbers
   - [ ] Python
   - [ ] Shell Script
 
-**Number Names** - Show how to spell out a number in English. You can use a preexisting implementation or roll your own, but you should support inputs up to at least one million (or the maximum value of your language's default bounded integer type, if that's less). *Optional: Support for inputs other than positive integers (like zero, negative integers, and floating-point numbers).*
+**19) Number Names** - Show how to spell out a number in English. You can use a preexisting implementation or roll your own, but you should support inputs up to at least one million (or the maximum value of your language's default bounded integer type, if that's less). *Optional: Support for inputs other than positive integers (like zero, negative integers, and floating-point numbers).*
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -193,7 +193,7 @@ Numbers
   - [ ] Python
   - [ ] Shell Script
 
-**Coin Flip Simulation** - Write some code that simulates flipping a single coin however many times the user decides. The code should record the outcomes and count the number of tails and heads.
+**20) Coin Flip Simulation** - Write some code that simulates flipping a single coin however many times the user decides. The code should record the outcomes and count the number of tails and heads.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -202,7 +202,7 @@ Numbers
   - [ ] Python
   - [ ] Shell Script
 
-**Limit Calculator** - Ask the user to enter f(x) and the limit value, then return the value of the limit statement *Optional: Make the calculator capable of supporting infinite limits.*
+**21) Limit Calculator** - Ask the user to enter f(x) and the limit value, then return the value of the limit statement *Optional: Make the calculator capable of supporting infinite limits.*
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -211,7 +211,7 @@ Numbers
   - [ ] Python
   - [ ] Shell Script
 
-**Fast Exponentiation** - Ask the user to enter 2 integers a and b and output a^b (i.e. pow(a,b)) in O(lg n) time complexity.
+**22) Fast Exponentiation** - Ask the user to enter 2 integers a and b and output a^b (i.e. pow(a,b)) in O(lg n) time complexity.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -223,7 +223,7 @@ Numbers
 Classic Algorithms
 -----------------
 
-**Collatz Conjecture** - Start with a number *n > 1*. Find the number of steps it takes to reach one using the following process: If *n* is even, divide it by 2. If *n* is odd, multiply it by 3 and add 1.
+**1) Collatz Conjecture** - Start with a number *n > 1*. Find the number of steps it takes to reach one using the following process: If *n* is even, divide it by 2. If *n* is odd, multiply it by 3 and add 1.
   - [x] Go
   - [ ] Java
   - [ ] Rust
@@ -232,7 +232,7 @@ Classic Algorithms
   - [ ] Python
   - [ ] Shell Script
 
-**Sorting** - Implement two types of sorting algorithms: Merge sort and bubble sort.
+**2) Sorting** - Implement two types of sorting algorithms: Merge sort and bubble sort.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -241,7 +241,7 @@ Classic Algorithms
   - [ ] Python
   - [ ] Shell Script
 
-**Closest pair problem** - The closest pair of points problem or closest pair problem is a problem of computational geometry: given *n* points in metric space, find a pair of points with the smallest distance between them.
+**3) Closest pair problem** - The closest pair of points problem or closest pair problem is a problem of computational geometry: given *n* points in metric space, find a pair of points with the smallest distance between them.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -250,7 +250,7 @@ Classic Algorithms
   - [ ] Python
   - [ ] Shell Script
 
-**Sieve of Eratosthenes** - The sieve of Eratosthenes is one of the most efficient ways to find all of the smaller primes (below 10 million or so).
+**4) Sieve of Eratosthenes** - The sieve of Eratosthenes is one of the most efficient ways to find all of the smaller primes (below 10 million or so).
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -263,7 +263,7 @@ Classic Algorithms
 Graph
 --------
 
-**Graph from links** - Create a program that will create a graph or network from a series of links.
+**1) Graph from links** - Create a program that will create a graph or network from a series of links.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -272,7 +272,7 @@ Graph
   - [ ] Python
   - [ ] Shell Script
 
-**Eulerian Path** - Create a program which will take as an input a graph and output either a Eulerian path or a Eulerian cycle, or state that it is not possible.  A Eulerian Path starts at one node and traverses every edge of a graph  through every node and finishes at another node.  A Eulerian cycle is a eulerian Path that starts and finishes at the same node.
+**2) Eulerian Path** - Create a program which will take as an input a graph and output either a Eulerian path or a Eulerian cycle, or state that it is not possible.  A Eulerian Path starts at one node and traverses every edge of a graph  through every node and finishes at another node.  A Eulerian cycle is a eulerian Path that starts and finishes at the same node.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -281,7 +281,7 @@ Graph
   - [ ] Python
   - [ ] Shell Script
 
-**Connected Graph** - Create a program which takes a graph as an input and outputs whether every node is connected or not.
+**3) Connected Graph** - Create a program which takes a graph as an input and outputs whether every node is connected or not.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -290,7 +290,7 @@ Graph
   - [ ] Python
   - [ ] Shell Script
 
-**Dijkstra’s Algorithm** - Create a program that finds the shortest path through a graph using its edges.
+**4) Dijkstra’s Algorithm** - Create a program that finds the shortest path through a graph using its edges.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -925,3 +925,38 @@ Security
   - [ ] Objective-C
   - [ ] Python
   - [ ] Shell Script
+
+## Completion
+|     Project    | Go  | Java | Rust |  C  | Objective-C | Python | Shell Script |
+|  ------------  | --- | ---- | ---- | --- | ----------- | ------ | ------------ |
+|   Numbers 1    |     |      |      |     |             |        |              |
+|   Numbers 2    |     |      |      |     |             |        |              |
+|   Numbers 3    |  ✓  |      |      |     |             |        |              |
+|   Numbers 4    |     |      |      |     |             |        |              |
+|   Numbers 5    |     |      |      |     |             |        |              |
+|   Numbers 6    |     |      |      |     |             |        |              |
+|   Numbers 7    |     |      |      |     |             |        |              |
+|   Numbers 8    |  ✓  |      |      |     |             |        |              |
+|   Numbers 9    |     |      |      |     |             |        |              |
+|   Numbers 10   |     |      |      |     |             |        |              |
+|   Numbers 11   |     |      |      |     |             |        |              |
+|   Numbers 12   |     |      |      |     |             |        |              |
+|   Numbers 13   |     |      |      |     |             |        |              |
+|   Numbers 14   |     |      |      |     |             |        |              |
+|   Numbers 15   |  ✓  |      |      |     |             |        |              |
+|   Numbers 16   |     |      |      |     |             |        |              |
+|   Numbers 17   |     |      |      |     |             |        |              |
+|   Numbers 18   |     |      |      |     |             |        |              |
+|   Numbers 19   |     |      |      |     |             |        |              |
+|   Numbers 20   |     |      |      |     |             |        |              |
+|   Numbers 21   |     |      |      |     |             |        |              |
+|   Numbers 22   |     |      |      |     |             |        |              |
+|  Algorithms 1  |  ✓  |      |      |     |             |        |              |
+|  Algorithms 2  |     |      |      |     |             |        |              |
+|  Algorithms 3  |     |      |      |     |             |        |              |
+|  Algorithms 4  |     |      |      |     |             |        |              |
+|   Graphs 1     |     |      |      |     |             |        |              |
+|   Graphs 2     |     |      |      |     |             |        |              |
+|   Graphs 3     |     |      |      |     |             |        |              |
+|   Graphs 4     |     |      |      |     |             |        |              |
+| Data Struct. 4 |     |      |      |     |             |        |              |
