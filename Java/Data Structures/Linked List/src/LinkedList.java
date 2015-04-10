@@ -1,5 +1,7 @@
 /**
  * @author Derek Argueta
+ *
+ * TODO - getSize()?
  */
 public class LinkedList<T> {
 

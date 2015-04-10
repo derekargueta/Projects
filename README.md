@@ -387,7 +387,7 @@ Data Structures
 
 *Linked List**
   - [ ] Go
-  - [ ] Java
+  - [x] Java
   - [ ] Rust
   - [ ] C
   - [ ] Objective-C
