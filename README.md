@@ -41,7 +41,7 @@ Numbers
   - [ ] Objective-C
   - [ ] Python
   - [ ] Shell Script
-    - [ ] Groovy
+  - [ ] Groovy
   - [ ] Rust
 
 **3) Fibonacci Sequence** - Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
