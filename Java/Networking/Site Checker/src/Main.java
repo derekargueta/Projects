@@ -38,7 +38,6 @@ public class Main {
                     new ConnectThread(urlString).start();
                     try {
                         Thread.sleep(pause);
-
                     } catch (InterruptedException e) {
                         System.out.println("Program has been interrupted. Goodbye!");
                     }

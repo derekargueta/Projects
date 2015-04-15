@@ -10,6 +10,13 @@ public class Main {
         ll.insert(3);
         ll.insert(10);
         ll.insert(9);
+
+        if(ll.getSize() != 5) {
+            System.err.println("FAILED to getSize()");
+        } else {
+            System.out.println("Passed getSize()");
+        }
+
         ll.printList();
 
         if(!ll.getListHead().getValue().equals(4)) {
@@ -52,10 +59,22 @@ public class Main {
             System.out.println("Passed remove() 1st iteration");
         }
 
+        if(ll.getSize() != 4) {
+            System.err.println("FAILED to getSize()");
+        } else {
+            System.out.println("Passed getSize()");
+        }
+
         if(ll.remove(1000)) {
             System.err.println("FAILED remove() 1st iteration");
         } else {
             System.out.println("Passed remove() 1st iteration");
+        }
+
+        if(ll.getSize() != 4) {
+            System.err.println("FAILED to getSize()");
+        } else {
+            System.out.println("Passed getSize()");
         }
 
         ll.printList();

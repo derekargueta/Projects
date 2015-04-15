@@ -6,6 +6,7 @@
 public class LinkedList<T> {
 
     private Node head;
+    private int size;
 
     public LinkedList() {
 
@@ -19,6 +20,11 @@ public class LinkedList<T> {
 
     public Node getListHead() {
         return head;
+    }
+
+
+    public int getSize() {
+        return size;
     }
 
 
@@ -43,12 +49,14 @@ public class LinkedList<T> {
             current.setNext(newNode);
             newNode.setPrevious(current);
         }
+        size++;
     }
 
 
     public boolean remove(T t) {
         if(head.getValue().equals(t)) {
             head = head.getNext();
+            size--;
             return true;
         } else {
             Node current = head;
@@ -56,6 +64,7 @@ public class LinkedList<T> {
                 current = current.getNext();
                 if(current.getValue().equals(t)) {
                     current.getPrevious().setNext(current.getNext());
+                    size--;
                     return true;
                 }
             }
