@@ -4,15 +4,13 @@ import "fmt"
 import "os"
 import "bufio"
 
-func main() {
-	reader := bufio.NewReader(os.Stdin)
-	fmt.Print("Enter a word: ")
-	text, _ := reader.ReadString('\n')
+func CountVowels(s string) map[rune]int {
+
 	letterCount := make(map[rune]int)
 	vowels := []rune{'a', 'e', 'i', 'o', 'u'}
 
 	// iterate through input string
-	for _, r := range text {
+	for _, r := range s {
 
 		// iterate through vowels
 		for _, vowel := range vowels {
@@ -32,6 +30,16 @@ func main() {
 			}
 		}
 	}
+
+	return letterCount
+}
+
+func main() {
+	// setup input reader
+	reader := bufio.NewReader(os.Stdin)
+	fmt.Print("Enter a word: ")
+	text, _ := reader.ReadString('\n')
+	letterCount := CountVowels(text)
 
 	// print the results
 	for k, v := range letterCount {
