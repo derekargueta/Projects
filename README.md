@@ -1,7 +1,7 @@
 Mega Project List
 ========
 
-Variety of practical programming problems. [Original Repo](https://github.com/karan/Projects)
+Variety of practical programming problems. [ORIGINAL REPO.](https://github.com/karan/Projects)
 
 ## Table of Contents
 
