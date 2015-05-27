@@ -315,7 +315,7 @@ Classic Algorithms
 Graph
 --------
 
-**1) Graph from links** - Create a program that will create a graph or network from a series of links.
+*1) Graph from links* - Create a program that will create a graph or network from a series of links.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -363,7 +363,7 @@ Graph
 Data Structures
 ---------
 
-**Inverted index** - An [Inverted Index](http://en.wikipedia.org/wiki/Inverted_index) is a data structure used to create full text search. Given a set of text files, implement a program to create an inverted index. Also create a user interface to do a search using that inverted index which returns a list of files that contain the query term / terms. The search index can be in memory.
+**1) Inverted index** - An [Inverted Index](http://en.wikipedia.org/wiki/Inverted_index) is a data structure used to create full text search. Given a set of text files, implement a program to create an inverted index. Also create a user interface to do a search using that inverted index which returns a list of files that contain the query term / terms. The search index can be in memory.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -374,7 +374,7 @@ Data Structures
   - [ ] Groovy
   - [ ] Rust
 
-*Binary Search Tree**
+**2) Binary Search Tree**
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -385,7 +385,7 @@ Data Structures
   - [ ] Groovy
   - [ ] Rust
 
-*Linked List**
+*3) Linked List**
   - [ ] Go
   - [x] Java
   - [ ] Rust
@@ -396,7 +396,7 @@ Data Structures
   - [ ] Groovy
   - [ ] Rust
 
-*Graph**
+**4) Graph**
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -407,7 +407,7 @@ Data Structures
   - [ ] Groovy
   - [ ] Rust
 
-*Huffman Tree**
+**5) Huffman Tree**
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -418,7 +418,7 @@ Data Structures
   - [ ] Groovy
   - [ ] Rust
 
-*AVL Tree**
+**6) AVL Tree**
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -432,7 +432,7 @@ Data Structures
 Text
 ---------
 
-**Fizz Buzz** - Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
+**1) Fizz Buzz** - Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
   - [x] Go
   - [ ] Java
   - [ ] Rust
@@ -443,7 +443,7 @@ Text
   - [ ] Groovy
   - [ ] Rust
 
-*Reverse a String** - Enter a string and the program will reverse it and print it out.
+**2) Reverse a String** - Enter a string and the program will reverse it and print it out.
   - [x] Go
   - [ ] Java
   - [ ] Rust
@@ -454,7 +454,7 @@ Text
   - [ ] Groovy
   - [ ] Rust
 
-*Pig Latin** - Pig Latin is a game of alterations played on the English language game. To create the Pig Latin form of an English word the initial consonant sound is transposed to the end of the word and an ay is affixed (Ex.: "banana" would yield anana-bay). Read Wikipedia for more information on rules.
+**3) Pig Latin** - Pig Latin is a game of alterations played on the English language game. To create the Pig Latin form of an English word the initial consonant sound is transposed to the end of the word and an ay is affixed (Ex.: "banana" would yield anana-bay). Read Wikipedia for more information on rules.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -465,7 +465,7 @@ Text
   - [ ] Groovy
   - [ ] Rust
 
-*Count Vowels** - Enter a string and the program counts the number of vowels in the text. For added complexity have it report a sum of each vowel found.
+**4) Count Vowels** - Enter a string and the program counts the number of vowels in the text. For added complexity have it report a sum of each vowel found.
   - [x] Go
   - [ ] Java
   - [ ] Rust
@@ -476,7 +476,7 @@ Text
   - [ ] Groovy
   - [ ] Rust
 
-*Check if Palindrome** - Checks if the string entered by the user is a palindrome. That is that it reads the same forwards as backwards like “racecar”
+**5) Check if Palindrome** - Checks if the string entered by the user is a palindrome. That is that it reads the same forwards as backwards like “racecar”
   - [x] Go
   - [ ] Java
   - [ ] Rust
@@ -487,7 +487,7 @@ Text
   - [ ] Groovy
   - [ ] Rust
 
-*Count Words in a String** - Counts the number of individual words in a string. For added complexity read these strings in from a text file and generate a summary.
+**6) Count Words in a String** - Counts the number of individual words in a string. For added complexity read these strings in from a text file and generate a summary.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -498,7 +498,7 @@ Text
   - [ ] Groovy
   - [ ] Rust
 
-*Text Editor** - Notepad style application that can open, edit, and save text documents. *Optional: Add syntax highlighting and other features.*
+**7) Text Editor** - Notepad style application that can open, edit, and save text documents. *Optional: Add syntax highlighting and other features.*
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -509,7 +509,7 @@ Text
   - [ ] Groovy
   - [ ] Rust
 
-*RSS Feed Creator** - Given a link to RSS/Atom Feed, get all posts and display them.
+**8) RSS Feed Creator** - Given a link to RSS/Atom Feed, get all posts and display them.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -520,7 +520,7 @@ Text
   - [ ] Groovy
   - [ ] Rust
 
-*Quote Tracker (market symbols etc)** - A program which can go out and check the current value of stocks for a list of symbols entered by the user. The user can set how often the stocks are checked. For CLI, show whether the stock has moved up or down. *Optional: If GUI, the program can show green up and red down arrows to show which direction the stock value has moved.*
+**9) Quote Tracker (market symbols etc)** - A program which can go out and check the current value of stocks for a list of symbols entered by the user. The user can set how often the stocks are checked. For CLI, show whether the stock has moved up or down. *Optional: If GUI, the program can show green up and red down arrows to show which direction the stock value has moved.*
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -531,7 +531,7 @@ Text
   - [ ] Groovy
   - [ ] Rust
 
-*Guestbook / Journal** - A simple application that allows people to add comments or write journal entries. It can allow comments or not and timestamps for all entries. Could also be made into a shout box. *Optional: Deploy it on Google App Engine or Heroku or any other PaaS (if possible, of course).*
+**10) Guestbook / Journal** - A simple application that allows people to add comments or write journal entries. It can allow comments or not and timestamps for all entries. Could also be made into a shout box. *Optional: Deploy it on Google App Engine or Heroku or any other PaaS (if possible, of course).*
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -542,7 +542,7 @@ Text
   - [ ] Groovy
   - [ ] Rust
 
-*Vigenere / Vernam / Ceasar Ciphers** - Functions for encrypting and decrypting data messages. Then send them to a friend.
+**11) Vigenere / Vernam / Ceasar Ciphers** - Functions for encrypting and decrypting data messages. Then send them to a friend.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -553,7 +553,7 @@ Text
   - [ ] Groovy
   - [ ] Rust
 
-*Regex Query Tool** - A tool that allows the user to enter a text string and then in a separate control enter a regex pattern. It will run the regular expression against the source text and return any matches or flag errors in the regular expression.
+**12) Regex Query Tool** - A tool that allows the user to enter a text string and then in a separate control enter a regex pattern. It will run the regular expression against the source text and return any matches or flag errors in the regular expression.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -568,7 +568,7 @@ Text
 Networking
 ---------
 
-**FTP Program** - A file transfer program which can transfer files back and forth from a remote web sever.
+**1) FTP Program** - A file transfer program which can transfer files back and forth from a remote web sever.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -579,7 +579,7 @@ Networking
   - [ ] Groovy
   - [ ] Rust
 
-*Bandwidth Monitor** - A small utility program that tracks how much data you have uploaded and downloaded from the net during the course of your current online session. See if you can find out what periods of the day you use more and less and generate a report or graph that shows it.
+**2) Bandwidth Monitor** - A small utility program that tracks how much data you have uploaded and downloaded from the net during the course of your current online session. See if you can find out what periods of the day you use more and less and generate a report or graph that shows it.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -590,7 +590,7 @@ Networking
   - [ ] Groovy
   - [ ] Rust
 
-*Port Scanner** - Enter an IP address and a port range where the program will then attempt to find open ports on the given computer by connecting to each of them. On any successful connections mark the port as open.
+**3) Port Scanner** - Enter an IP address and a port range where the program will then attempt to find open ports on the given computer by connecting to each of them. On any successful connections mark the port as open.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -601,7 +601,7 @@ Networking
   - [ ] Groovy
   - [ ] Rust
 
-*Mail Checker (POP3 / IMAP)** - The user enters various account information include web server and IP, protocol type (POP3 or IMAP) and the application will check for email at a given interval.
+**4) Mail Checker (POP3 / IMAP)** - The user enters various account information include web server and IP, protocol type (POP3 or IMAP) and the application will check for email at a given interval.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -612,7 +612,7 @@ Networking
   - [ ] Groovy
   - [ ] Rust
 
-*Country from IP Lookup** - Enter an IP address and find the country that IP is registered in. *Optional: Find the Ip automatically.*
+**5) Country from IP Lookup** - Enter an IP address and find the country that IP is registered in. *Optional: Find the Ip automatically.*
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -623,7 +623,7 @@ Networking
   - [ ] Groovy
   - [ ] Rust
 
-*Whois Search Tool** - Enter an IP or host address and have it look it up through whois and return the results to you.
+**6) Whois Search Tool** - Enter an IP or host address and have it look it up through whois and return the results to you.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -634,7 +634,7 @@ Networking
   - [ ] Groovy
   - [ ] Rust
 
-*Site Checker with Time Scheduling** - An application that attempts to connect to a website or server every so many minutes or a given time and check if it is up. If it is down, it will notify you by email or by posting a notice on screen.
+**7) Site Checker with Time Scheduling** - An application that attempts to connect to a website or server every so many minutes or a given time and check if it is up. If it is down, it will notify you by email or by posting a notice on screen.
   - [ ] Go
   - [x] Java
   - [ ] Rust
@@ -649,7 +649,7 @@ Networking
 Classes
 ---------
 
-**Product Inventory Project** - Create an application which manages an inventory of products. Create a product class which has a price, id, and quantity on hand. Then create an *inventory* class which keeps track of various products and can sum up the inventory value.
+**1) Product Inventory Project** - Create an application which manages an inventory of products. Create a product class which has a price, id, and quantity on hand. Then create an *inventory* class which keeps track of various products and can sum up the inventory value.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -660,7 +660,7 @@ Classes
   - [ ] Groovy
   - [ ] Rust
 
-*Airline / Hotel Reservation System** - Create a reservation system which books airline seats or hotel rooms. It charges various rates for particular sections of the plane or hotel. Example, first class is going to cost more than coach. Hotel rooms have penthouse suites which cost more. Keep track of when rooms will be available and can be scheduled.
+**2) Airline / Hotel Reservation System** - Create a reservation system which books airline seats or hotel rooms. It charges various rates for particular sections of the plane or hotel. Example, first class is going to cost more than coach. Hotel rooms have penthouse suites which cost more. Keep track of when rooms will be available and can be scheduled.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -671,7 +671,7 @@ Classes
   - [ ] Groovy
   - [ ] Rust
 
-*Company Manager** - Create an hierarchy of classes - abstract class Employee and subclasses HourlyEmployee, SalariedEmployee, Manager and Executive. Every one's pay is calculated differently, research a bit about it.
+**3) Company Manager** - Create an hierarchy of classes - abstract class Employee and subclasses HourlyEmployee, SalariedEmployee, Manager and Executive. Every one's pay is calculated differently, research a bit about it.
 After you've established an employee hierarchy, create a Company class that allows you to manage the employees. You should be able to hire, fire and raise employees. 
   - [ ] Go
   - [ ] Java
@@ -683,7 +683,7 @@ After you've established an employee hierarchy, create a Company class that allo
   - [ ] Groovy
   - [ ] Rust
 
-*Bank Account Manager** - Create a class called Account which will be an abstract class for three other classes called CheckingAccount, SavingsAccount and BusinessAccount. Manage credits and debits from these accounts through an ATM style program.
+**4) Bank Account Manager** - Create a class called Account which will be an abstract class for three other classes called CheckingAccount, SavingsAccount and BusinessAccount. Manage credits and debits from these accounts through an ATM style program.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -694,7 +694,7 @@ After you've established an employee hierarchy, create a Company class that allo
   - [ ] Groovy
   - [ ] Rust
 
-*Patient / Doctor Scheduler** - Create a patient class and a doctor class. Have a doctor that can handle multiple patients and setup a scheduling program where a doctor can only handle 16 patients during an 8 hr work day.
+**5) Patient / Doctor Scheduler** - Create a patient class and a doctor class. Have a doctor that can handle multiple patients and setup a scheduling program where a doctor can only handle 16 patients during an 8 hr work day.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -705,7 +705,7 @@ After you've established an employee hierarchy, create a Company class that allo
   - [ ] Groovy
   - [ ] Rust
 
-*Recipe Creator and Manager** - Create a recipe class with ingredients and a put them in a recipe manager program that organizes them into categories like deserts, main courses or by ingredients like chicken, beef, soups, pies etc.
+**6) Recipe Creator and Manager** - Create a recipe class with ingredients and a put them in a recipe manager program that organizes them into categories like deserts, main courses or by ingredients like chicken, beef, soups, pies etc.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -716,7 +716,7 @@ After you've established an employee hierarchy, create a Company class that allo
   - [ ] Groovy
   - [ ] Rust
 
-*Image Gallery** - Create an image abstract class and then a class that inherits from it for each image type. Put them in a program which displays them in a gallery style format for viewing.
+**7) Image Gallery** - Create an image abstract class and then a class that inherits from it for each image type. Put them in a program which displays them in a gallery style format for viewing.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -727,7 +727,7 @@ After you've established an employee hierarchy, create a Company class that allo
   - [ ] Groovy
   - [ ] Rust
 
-*Shape Area and Perimeter Classes** - Create an abstract class called Shape and then inherit from it other shapes like diamond, rectangle, circle, triangle etc. Then have each class override the area and perimeter functionality to handle each shape type.
+**8) Shape Area and Perimeter Classes** - Create an abstract class called Shape and then inherit from it other shapes like diamond, rectangle, circle, triangle etc. Then have each class override the area and perimeter functionality to handle each shape type.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -738,7 +738,7 @@ After you've established an employee hierarchy, create a Company class that allo
   - [ ] Groovy
   - [ ] Rust
 
-*Flower Shop Ordering To Go** - Create a flower shop application which deals in flower objects and use those flower objects in a bouquet object which can then be sold. Keep track of the number of objects and when you may need to order more.
+**9) Flower Shop Ordering To Go** - Create a flower shop application which deals in flower objects and use those flower objects in a bouquet object which can then be sold. Keep track of the number of objects and when you may need to order more.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -749,7 +749,7 @@ After you've established an employee hierarchy, create a Company class that allo
   - [ ] Groovy
   - [ ] Rust
 
-*Family Tree Creator** - Create a class called Person which will have a name, when they were born and when (and if) they died. Allow the user to create these Person classes and put them into a family tree structure. Print out the tree to the screen.
+**10) Family Tree Creator** - Create a class called Person which will have a name, when they were born and when (and if) they died. Allow the user to create these Person classes and put them into a family tree structure. Print out the tree to the screen.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -764,7 +764,7 @@ After you've established an employee hierarchy, create a Company class that allo
 Threading
 ---------
 
-**Create A Progress Bar for Downloads** - Create a progress bar for applications that can keep track of a download in progress. The progress bar will be on a separate thread and will communicate with the main thread using delegates.
+**1) Create A Progress Bar for Downloads** - Create a progress bar for applications that can keep track of a download in progress. The progress bar will be on a separate thread and will communicate with the main thread using delegates.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -775,7 +775,7 @@ Threading
   - [ ] Groovy
   - [ ] Rust
 
-*Bulk Thumbnail Creator** - Picture processing can take a bit of time for some transformations. Especially if the image is large. Create an image program which can take hundreds of images and converts them to a specified size in the background thread while you do other things. For added complexity, have one thread handling re-sizing, have another bulk renaming of thumbnails etc.
+**2) Bulk Thumbnail Creator** - Picture processing can take a bit of time for some transformations. Especially if the image is large. Create an image program which can take hundreds of images and converts them to a specified size in the background thread while you do other things. For added complexity, have one thread handling re-sizing, have another bulk renaming of thumbnails etc.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -789,7 +789,7 @@ Threading
 Web
 ---------
 
-**Page Scraper** - Create an application which connects to a site and pulls out all links, or images, and saves them to a list. *Optional: Organize the indexed content and don’t allow duplicates. Have it put the results into an easily searchable index file.*
+**1) Page Scraper** - Create an application which connects to a site and pulls out all links, or images, and saves them to a list. *Optional: Organize the indexed content and don’t allow duplicates. Have it put the results into an easily searchable index file.*
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -800,7 +800,7 @@ Web
   - [ ] Groovy
   - [ ] Rust
 
-*Online White Board** - Create an application which allows you to draw pictures, write notes and use various colors to flesh out ideas for projects. *Optional: Add feature to invite friends to collaborate on a white board online.*
+**2) Online White Board** - Create an application which allows you to draw pictures, write notes and use various colors to flesh out ideas for projects. *Optional: Add feature to invite friends to collaborate on a white board online.*
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -811,7 +811,7 @@ Web
   - [ ] Groovy
   - [ ] Rust
 
-*Get Atomic Time from Internet Clock** - This program will get the true atomic time from an atomic time clock on the Internet. Use any one of the atomic clocks returned by a simple Google search.
+**3) Get Atomic Time from Internet Clock** - This program will get the true atomic time from an atomic time clock on the Internet. Use any one of the atomic clocks returned by a simple Google search.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -822,7 +822,7 @@ Web
   - [ ] Groovy
   - [ ] Rust
 
-*Fetch Current Weather** - Get the current weather for a given zip/postal code. *Optional: Try locating the user automatically.*
+**4) Fetch Current Weather** - Get the current weather for a given zip/postal code. *Optional: Try locating the user automatically.*
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -833,7 +833,7 @@ Web
   - [ ] Groovy
   - [ ] Rust
 
-*Scheduled Auto Login and Action** - Make an application which logs into a given site on a schedule and invokes a certain action and then logs out. This can be useful for checking web mail, posting regular content, or getting info for other applications and saving it to your computer.
+**5) Scheduled Auto Login and Action** - Make an application which logs into a given site on a schedule and invokes a certain action and then logs out. This can be useful for checking web mail, posting regular content, or getting info for other applications and saving it to your computer.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -844,7 +844,7 @@ Web
   - [ ] Groovy
   - [ ] Rust
 
-*E-Card Generator** - Make a site that allows people to generate their own little e-cards and send them to other people. Do not use Flash. Use a picture library and perhaps insightful mottos or quotes.
+**6) E-Card Generator** - Make a site that allows people to generate their own little e-cards and send them to other people. Do not use Flash. Use a picture library and perhaps insightful mottos or quotes.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -855,7 +855,7 @@ Web
   - [ ] Groovy
   - [ ] Rust
 
-*Content Management System** - Create a content management system (CMS) like Joomla, Drupal, PHP Nuke etc. Start small. *Optional: Allow for the addition of modules/addons.*
+**7) Content Management System** - Create a content management system (CMS) like Joomla, Drupal, PHP Nuke etc. Start small. *Optional: Allow for the addition of modules/addons.*
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -866,7 +866,7 @@ Web
   - [ ] Groovy
   - [ ] Rust
 
-*Web Board (Forum)** - Create a forum for you and your buddies to post, administer and share thoughts and ideas.
+**8) Web Board (Forum)** - Create a forum for you and your buddies to post, administer and share thoughts and ideas.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -877,7 +877,7 @@ Web
   - [ ] Groovy
   - [ ] Rust
 
-*CAPTCHA Maker** - Ever see those images with letters a numbers when you signup for a service and then asks you to enter what you see? It keeps web bots from automatically signing up and spamming. Try creating one yourself for online forms.
+**9) CAPTCHA Maker** - Ever see those images with letters a numbers when you signup for a service and then asks you to enter what you see? It keeps web bots from automatically signing up and spamming. Try creating one yourself for online forms.
   - [ ] Go
   - [ ] Java
   - [ ] Rust
@@ -1109,36 +1109,69 @@ Security
   - [ ] Rust
 
 ## Completion
-|     Project    | Go  | Java | Rust |  C  | Objective-C | Python | Shell Script |
-|  ------------  | --- | ---- | ---- | --- | ----------- | ------ | ------------ |
-|   Numbers 1    |     |      |      |     |             |        |              |
-|   Numbers 2    |     |      |      |     |             |        |              |
-|   Numbers 3    |  ✓  |      |      |     |             |        |              |
-|   Numbers 4    |     |      |      |     |             |        |              |
-|   Numbers 5    |     |      |      |     |             |        |              |
-|   Numbers 6    |     |      |      |     |             |        |              |
-|   Numbers 7    |     |      |      |     |             |        |              |
-|   Numbers 8    |  ✓  |      |      |     |             |        |              |
-|   Numbers 9    |     |      |      |     |             |        |              |
-|   Numbers 10   |     |      |      |     |             |        |              |
-|   Numbers 11   |     |      |      |     |             |        |              |
-|   Numbers 12   |     |      |      |     |             |        |              |
-|   Numbers 13   |     |      |      |     |             |        |              |
-|   Numbers 14   |     |      |      |     |             |        |              |
-|   Numbers 15   |  ✓  |      |      |     |             |        |              |
-|   Numbers 16   |     |      |      |     |             |        |              |
-|   Numbers 17   |     |      |      |     |             |        |              |
-|   Numbers 18   |     |      |      |     |             |        |              |
-|   Numbers 19   |     |      |      |     |             |        |              |
-|   Numbers 20   |     |      |      |     |             |        |              |
-|   Numbers 21   |     |      |      |     |             |        |              |
-|   Numbers 22   |     |      |      |     |             |        |              |
-|  Algorithms 1  |  ✓  |      |      |     |             |        |              |
-|  Algorithms 2  |     |      |      |     |             |        |              |
-|  Algorithms 3  |     |      |      |     |             |        |              |
-|  Algorithms 4  |     |      |      |     |             |        |              |
-|   Graphs 1     |     |      |      |     |             |        |              |
-|   Graphs 2     |     |      |      |     |             |        |              |
-|   Graphs 3     |     |      |      |     |             |        |              |
-|   Graphs 4     |     |      |      |     |             |        |              |
-| Data Struct. 4 |     |      |      |     |             |        |              |
+|     Project    | Go  | Java | Rust |  C  | Obj-C | Python | Groovy |
+|  ------------  | --- | ---- | ---- | --- | ----- | ------ | ------ |
+|   Numbers 1    |     |      |      |     |       |        |        |
+|   Numbers 2    |     |      |      |     |       |        |        |
+|   Numbers 3    |  ✓  |      |      |     |       |        |        |
+|   Numbers 4    |     |      |      |     |       |        |        |
+|   Numbers 5    |     |      |      |     |       |        |        |
+|   Numbers 6    |     |      |      |     |       |        |        |
+|   Numbers 7    |     |      |      |     |       |        |        |
+|   Numbers 8    |  ✓  |      |      |     |       |        |        |
+|   Numbers 9    |     |      |      |     |       |        |        |
+|   Numbers 10   |     |      |      |     |       |        |        |
+|   Numbers 11   |     |      |      |     |       |        |        |
+|   Numbers 12   |     |      |      |     |       |        |        |
+|   Numbers 13   |     |      |      |     |       |        |        |
+|   Numbers 14   |     |      |      |     |       |        |        |
+|   Numbers 15   |  ✓  |      |      |     |       |        |        |
+|   Numbers 16   |     |      |      |     |       |        |        |
+|   Numbers 17   |     |      |      |     |       |        |        |
+|   Numbers 18   |     |      |      |     |       |        |        |
+|   Numbers 19   |     |      |      |     |       |        |        |
+|   Numbers 20   |     |      |      |     |       |        |        |
+|   Numbers 21   |     |      |      |     |       |        |        |
+|   Numbers 22   |     |      |      |     |       |        |        |
+|  Algorithms 1  |  ✓  |      |      |     |       |        |   ✓    |
+|  Algorithms 2  |     |      |      |     |       |        |        |
+|  Algorithms 3  |     |      |      |     |       |        |        |
+|  Algorithms 4  |     |      |      |     |       |        |        |
+|   Graphs 1     |     |      |      |     |       |        |        |
+|   Graphs 2     |     |      |      |     |       |        |        |
+|   Graphs 3     |     |      |      |     |       |        |        |
+|   Graphs 4     |     |      |      |     |       |        |        |
+| Data Struct. 1 |     |      |      |     |       |        |        |
+| Data Struct. 2 |     |      |      |     |       |        |        |
+| Data Struct. 3 |     |   ✓  |      |     |       |        |        |
+| Data Struct. 4 |     |      |      |     |       |        |        |
+| Data Struct. 5 |     |      |      |     |       |        |        |
+| Data Struct. 6 |     |      |      |     |       |        |        |
+|    Text 1      |  ✓  |      |      |     |       |        |        |
+|    Text 2      |  ✓  |      |      |     |       |        |        |
+|    Text 3      |     |      |      |     |       |        |        |
+|    Text 4      |  ✓  |      |      |     |       |        |        |
+|    Text 5      |  ✓  |      |      |     |       |        |        |
+|    Text 6      |     |      |      |     |       |        |        |
+|    Text 7      |     |      |      |     |       |        |        |
+|    Text 8      |     |      |      |     |       |        |        |
+|    Text 9      |     |      |      |     |       |        |        |
+| Networking 1   |     |      |      |     |       |        |        |
+| Networking 2   |     |      |      |     |       |        |        |
+| Networking 3   |     |      |      |     |       |        |        |
+| Networking 4   |     |      |      |     |       |        |        |
+| Networking 5   |     |      |      |     |       |        |        |
+| Networking 6   |     |      |      |     |       |        |        |
+| Networking 7   |     |   ✓  |      |     |       |        |        |
+|  Classes 1     |     |      |      |     |       |        |        |
+|  Classes 2     |     |      |      |     |       |        |        |
+|  Classes 3     |     |      |      |     |       |        |        |
+|  Classes 4     |     |      |      |     |       |        |        |
+|  Classes 5     |     |      |      |     |       |        |        |
+|  Classes 6     |     |      |      |     |       |        |        |
+|  Classes 7     |     |      |      |     |       |        |        |
+|  Classes 8     |     |      |      |     |       |        |        |
+|  Classes 9     |     |      |      |     |       |        |        |
+|  Classes 10    |     |      |      |     |       |        |        |
+|  Threading 1   |     |      |      |     |       |        |        |
+|  Threading 2   |     |      |      |     |       |        |        |
