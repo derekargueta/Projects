@@ -7,33 +7,19 @@ import "bufio"
 func CountVowels(s string) map[rune]int {
 
 	letterCount := map[rune]int{
-        'a': 0,
-        'e': 0,
-        'i': 0,
-        'o': 0,
-        'u': 0
-    }
-	vowels := []rune{'a', 'e', 'i', 'o', 'u'}
+		'a': 0,
+		'e': 0,
+		'i': 0,
+		'o': 0,
+		'u': 0,
+	}
 
 	// iterate through input string
 	for _, r := range s {
 
-		// iterate through vowels
-		for _, vowel := range vowels {
-
-			// If current letter is a vowel...
-			if r == vowel {
-				if _, ok := letterCount[r]; ok {
-					// increment it in the map
-					letterCount[vowel]++
-				} else {
-					// or instantiate it with '1'
-					letterCount[vowel] = 1
-				}
-
-				// no need to keep checking vowels
-				break
-			}
+		if _, ok := letterCount[r]; ok {
+			// increment it in the map
+			letterCount[r]++
 		}
 	}
 
