@@ -6,7 +6,13 @@ import "bufio"
 
 func CountVowels(s string) map[rune]int {
 
-	letterCount := make(map[rune]int)
+	letterCount := map[rune]int{
+        'a': 0,
+        'e': 0,
+        'i': 0,
+        'o': 0,
+        'u': 0
+    }
 	vowels := []rune{'a', 'e', 'i', 'o', 'u'}
 
 	// iterate through input string
