@@ -7,24 +7,14 @@ import (
 	"strconv"
 )
 
-// iterate through all the runes in the string and ensure they are either 1 or 0
-func validateBinaryArgument(binaryArg string) {
-	for _, char := range binaryArg {
-		if char != '0' && char != '1' {
-			fmt.Println("Invalid binary number")
-			os.Exit(1)
-		}
-	}
-}
-
-func validateDecimalArgument(decimalArg string) {
-	// TODO - validate all characters are 1-9
-}
-
+// Did this one the hard way for the LULz
 func convBinary2Decimal(num string) string {
 
 	// will catch if the string is invalid
-	validateBinaryArgument(num)
+	if !validateBinaryArgument(num) {
+		fmt.Println("Invalid binary number")
+		os.Exit(1)
+	}
 
 	var totalDecNum int
 
@@ -40,11 +30,19 @@ func convBinary2Decimal(num string) string {
 	return strconv.Itoa(totalDecNum)
 }
 
+// Cheated and used built-in functionality
 func convDecimal2Binary(num string) string {
 
 	// will catch if the string is invalid
-	validateDecimalArgument(num)
-	return ""
+	if !validateDecimalArgument(num) {
+		fmt.Println("Invalid decimal number")
+		os.Exit(1)
+	}
+
+	n, _ := strconv.Atoi(num)
+
+	// var total
+	return strconv.FormatInt(int64(n), 2)
 }
 
 func checkArgs() {
