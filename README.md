@@ -241,7 +241,7 @@ Text
   - [ ] Groovy
 
 **6) Count Words in a String** - Counts the number of individual words in a string. For added complexity read these strings in from a text file and generate a summary.
-  - [ ] Go
+  - [x] Go
   - [ ] Java
   - [ ] Groovy
 
@@ -591,7 +591,7 @@ Security
 |    Text 3      |     |      |        |
 |    Text 4      |  ✓  |      |        |
 |    Text 5      |  ✓  |      |        |
-|    Text 6      |     |      |        |
+|    Text 6      |  ✓  |      |        |
 |    Text 7      |     |      |        |
 |    Text 8      |     |      |        |
 |    Text 9      |     |      |        |
