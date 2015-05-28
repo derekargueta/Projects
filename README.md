@@ -63,7 +63,7 @@ Numbers
   - [ ] Groovy
 
 *9) Binary to Decimal and Back Converter** - Develop a converter to convert a decimal number to binary or a binary number to its decimal equivalent.
-  - [ ] Go
+  - [x] Go
   - [ ] Java
   - [ ] Groovy
 
@@ -558,7 +558,7 @@ Security
 |   Numbers 6    |     |      |        |
 |   Numbers 7    |     |      |        |
 |   Numbers 8    |  ✓  |      |        |
-|   Numbers 9    |     |      |        |
+|   Numbers 9    |  ✓  |      |        |
 |   Numbers 10   |     |      |        |
 |   Numbers 11   |     |      |        |
 |   Numbers 12   |     |      |        |
