@@ -265,7 +265,7 @@ Text
   - [ ] Java
   - [ ] Groovy
 
-**11) Vigenere / Vernam / Ceasar Ciphers** - Functions for encrypting and decrypting data messages. Then send them to a friend.
+**11) Vigenere / Vernam / Caesar Ciphers** - Functions for encrypting and decrypting data messages. Then send them to a friend.
   - [ ] Go
   - [ ] Java
   - [ ] Groovy
